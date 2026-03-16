@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Advisor | Revolve Agro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- LOW INTERNET BANNER -->
+  <div id="low-internet-banner" class="low-internet-banner">
+    ⚠ Low Internet Mode Active – Simplified view enabled
+  </div>
+
+  <!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <span>Revolve Agro</span>
+    </div>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ai.html" class="active">AI Advisor</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+  <!-- AI ADVISOR -->
+  <section class="ai-container">
+    <h1>🌱 AI Crop Advisor</h1>
+    <p>Ask about crop nutrition, deficiencies, or product usage.</p>
+
+    <div class="ai-box">
+
+      <!-- CHAT -->
+      <div id="ai-chat" class="ai-chat">
+        <div class="ai-message bot">
+          Hello 🌱 I’m your AI Crop Advisor. How can I help you today?
+        </div>
+      </div>
+
+      <!-- INPUT -->
+      <div class="ai-input">
+        <input
+          type="text"
+          id="user-question"
+          placeholder="Ask about crop, deficiency, or product usage..."
+        />
+        <button onclick="askAI()">Ask</button>
+      </div>
+
+      <!-- SUGGESTIONS -->
+      <div class="ai-suggestions">
+        <button onclick="fillQuestion('Zinc deficiency in cotton')">Zinc deficiency</button>
+        <button onclick="fillQuestion('Magnesium deficiency')">Magnesium deficiency</button>
+        <button onclick="fillQuestion('Crop growth issue')">Crop growth</button>
+      </div>
+
+      <!-- LANGUAGE SELECTOR (ONLY ONE) -->
+      <div class="ai-footer">
+        <label>
+          Language:
+          <select id="ai-language">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="mr">Marathi</option>
+          </select>
+        </label>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,40 C240,80 480,0 720,20 960,40 1200,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f3d2e">
+    </path>
+  </svg>
+</div>
+
+ <footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <h2>Revolve Agro</h2>
+      <p>
+        Smart crop nutrition powered by science, data, and farmer trust.
+      </p>
+    </div>
+
+    <div class="footer-card">
+      <h4>Explore</h4>
+      <a href="products.html">🌾 Products</a>
+      <a href="ai.html">🤖 AI Advisor</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div class="footer-card">
+      <h4>Reach Us</h4>
+      <p>📍 India</p>
+      <p>📞 +91 XXXXXXXX</p>
+      <p>📧 support@revolveagro.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Revolve Agro · Grow Better Crops 🌱
+  </div>
+</footer>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- 
+Zinc deficiency in cotton
+
+Zinc deficiency symptoms in paddy crop
+
+Magnesium deficiency in wheat crop
+
+Magnesium deficiency symptoms in sugarcane
+
+Yellow leaves in rice crop due to nutrient deficiency
+
+Why leaves are turning yellow in crops
+
+Crop growth issue in early stage
+
+Poor crop growth and low yield problem
+
+Slow plant growth solution
+
+How to increase crop yield naturally
+
+Weak crop growth after germination
+
+My crop is not growing well, what should I do?
+
+Plants are weak and leaves are small
+
+Crop looking dull and unhealthy
+
+Which product improves overall crop health?
+
+What is Hustler Zinc used for?
+
+What is Hustler Magnesium used for?
+
+Benefits of Revo Growth product
+
+Which product is best for zinc deficiency?
+
+Which product improves vegetative growth?
+
+Dosage of Hustler Zinc for cotton crop
+
+How to use Hustler Magnesium properly
+
+Best time to spray micronutrients
+
+Foliar spray or soil application – which is better?
+
+Hindi
+
+कपास में जिंक की कमी
+
+फसल की बढ़वार कम हो रही है
+
+मैग्नीशियम की कमी के लक्षण
+
+Marathi
+
+कापसामध्ये झिंक कमतरता
+
+पिकाची वाढ कमी आहे
+
+मॅग्नेशियम कमतरतेची लक्षणे -->

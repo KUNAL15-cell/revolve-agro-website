@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products | Revolve Agro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="low-internet-banner" class="low-internet-banner">
+  ⚠ Low Internet Mode Active – Simplified view enabled
+</div>
+
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <span>Revolve Agro</span>
+    </div>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ai.html" class="active">AI Advisor</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- PAGE TITLE -->
+<section class="page-title">
+  <h1>Our Products</h1>
+  <p>Advanced crop nutrition solutions</p>
+</section>
+
+<!-- PRODUCTS GRID -->
+<section class="products-section">
+  <div class="product-grid">
+
+    <!-- HUSTLER -->
+    <div class="product-card" onclick="goToProduct('hustler-magnesium')">
+      <img src="assets/products/hustler-magnesium.jpeg">
+      <h4>Hustler Magnesium</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-calcium')">
+      <img src="assets/products/hustler-calcium.jpeg">
+      <h4>Hustler Calcium</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-combi')">
+      <img src="assets/products/hustler-combi.jpeg">
+      <h4>Hustler Combi</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-ferrous')">
+      <img src="assets/products/hustler-ferrous.jpeg">
+      <h4>Hustler Ferrous</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-manganese')">
+      <img src="assets/products/hustler-manganese.jpeg">
+      <h4>Hustler Manganese</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-zinc')">
+      <img src="assets/products/hustler-zinc.jpeg">
+      <h4>Hustler Zinc</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-mix')">
+      <img src="assets/products/hustler-mix.jpeg">
+      <h4>Hustler Mix</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-cal-11')">
+      <img src="assets/products/hustler-cal-11.jpeg">
+      <h4>Hustler Cal-11</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('hustler-boro')">
+      <img src="assets/products/hustler-boro.jpeg">
+      <h4>Hustler Boro</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('boro-Glymax')">
+      <img src="assets/products/boro-glymax.jpeg">
+      <h4>Boro Glymax</h4>
+    </div>
+
+    <!-- REVO -->
+    <div class="product-card" onclick="goToProduct('revo-growth')">
+      <img src="assets/products/revo-growth.jpeg">
+      <h4>Revo Growth</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-boost')">
+      <img src="assets/products/revo-boost.jpeg">
+      <h4>Revo Boost</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-speed')">
+      <img src="assets/products/revo-speed.jpeg">
+      <h4>Revo Speed</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-cane')">
+      <img src="assets/products/revo-cane.jpeg">
+      <h4>Revo Cane</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-phos')">
+      <img src="assets/products/revo-phos.jpeg">
+      <h4>Revo Phos</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-sil')">
+      <img src="assets/products/revo-sil.jpeg">
+      <h4>Revo Sil</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-spread')">
+      <img src="assets/products/revo-spread.jpeg">
+      <h4>Revo Spread</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-zinco')">
+      <img src="assets/products/revo-zinco.jpeg">
+      <h4>Revo Zinco</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('revo-bud')">
+      <img src="assets/products/revo-bud.jpeg">
+      <h4>Revo Bud</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('Revo Fe HEDP-17')">
+      <img src="assets/products/Revo Fe HEDP-17.jpeg">
+      <h4>Revo Fe HEDP-17</h4>
+    </div>
+
+    <!-- LIQUID -->
+    <div class="product-card" onclick="goToProduct('zinc-glucon')">
+      <img src="assets/products/zinc-glucon.jpeg">
+      <h4>Zinc Glucon</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('zinc-glymax')">
+      <img src="assets/products/zinc-glymax.jpeg">
+      <h4>Zinc Glymax</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('cal-glymax')">
+      <img src="assets/products/cal-glymax.jpeg">
+      <h4>Cal Glymax</h4>
+    </div>
+
+    <div class="product-card" onclick="goToProduct('n-32')">
+      <img src="assets/products/n-32.jpeg">
+      <h4>N-32</h4>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,40 C240,80 480,0 720,20 960,40 1200,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f3d2e">
+    </path>
+  </svg>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <h2>Revolve Agro</h2>
+      <p>
+        Smart crop nutrition powered by science, data, and farmer trust.
+      </p>
+    </div>
+
+    <div class="footer-card">
+      <h4>Explore</h4>
+      <a href="products.html">🌾 Products</a>
+      <a href="ai.html">🤖 AI Advisor</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div class="footer-card">
+      <h4>Reach Us</h4>
+      <p>📍 India</p>
+      <p>📞 +91 XXXXXXXX</p>
+      <p>📧 support@revolveagro.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Revolve Agro · Grow Better Crops 🌱
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

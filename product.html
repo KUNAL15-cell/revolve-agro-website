@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Details | Revolve Agro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <span>Revolve Agro</span>
+    </div>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ai.html" class="active">AI Advisor</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- PRODUCT DETAIL -->
+<section class="product-detail">
+  <div class="product-wrapper">
+
+    <!-- LEFT: IMAGE -->
+    <div class="product-image">
+      <img id="product-image" src="" alt="Product Image">
+    </div>
+
+    <!-- RIGHT: INFO -->
+    <div class="product-info">
+      <h1 id="product-name">Product Name</h1>
+
+      <p class="product-purpose" id="product-purpose"></p>
+
+      <div class="info-grid">
+        <div class="detail-card">
+          <h3>❓ Why to Use</h3>
+          <p id="product-why"></p>
+        </div>
+
+        <div class="detail-card">
+          <h3>🌾 Suitable Crops</h3>
+          <p id="product-crops"></p>
+        </div>
+
+        <div class="detail-card">
+          <h3>🧪 How to Apply</h3>
+          <p id="product-how"></p>
+        </div>
+
+        <div class="detail-card">
+          <h3>📏 Dosage</h3>
+          <p id="product-dosage"></p>
+        </div>
+
+        <div class="detail-card">
+          <h3>⏱ Best Time</h3>
+          <p id="product-time"></p>
+        </div>
+      </div>
+
+      <div class="ai-badge">
+        🤖 AI Recommended Product
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,40 C240,80 480,0 720,20 960,40 1200,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f3d2e">
+    </path>
+  </svg>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <h2>Revolve Agro</h2>
+      <p>
+        Smart crop nutrition powered by science, data, and farmer trust.
+      </p>
+    </div>
+
+    <div class="footer-card">
+      <h4>Explore</h4>
+      <a href="products.html">🌾 Products</a>
+      <a href="ai.html">🤖 AI Advisor</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div class="footer-card">
+      <h4>Reach Us</h4>
+      <p>📍 India</p>
+      <p>📞 +91 XXXXXXXX</p>
+      <p>📧 support@revolveagro.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Revolve Agro · Grow Better Crops 🌱
+  </div>
+</footer>
+
+  <!-- JS -->
+<script src="js/main.js"></script>
+</body>
+</html>

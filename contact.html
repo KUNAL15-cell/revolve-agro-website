@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Revolve Agro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="assets/logo.jpeg" alt="Revolve Agro">
+    <span>Revolve Agro</span>
+  </div>
+
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ai.html">AI Advisor</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<section class="contact-section">
+  <div class="contact-container">
+
+    <h1>Contact Us</h1>
+    <p class="contact-subtitle">
+      Reach out to us for product information, support, or partnership inquiries.
+    </p>
+
+    <div class="contact-grid">
+
+      <!-- LEFT INFO -->
+      <div class="contact-info">
+        <h3>📍 Office</h3>
+        <p>Revolve Agro Pvt. Ltd.<br>India</p>
+
+        <h3>📞 Phone</h3>
+        <p>+91 9XXXXXXXXX</p>
+
+        <h3>📧 Email</h3>
+        <p>support@revolveagro.com</p>
+      </div>
+
+      <!-- FORM -->
+      <div class="contact-form">
+        <form onsubmit="handleContact(event)">
+          <input type="text" id="contact-name" placeholder="Your Name" required>
+          <input type="email" id="contact-email" placeholder="Your Email" required>
+          <input type="text" id="product-interest" placeholder="I want information about this product" required>
+          <textarea id="contact-message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <p class="form-note">
+          You will be redirected to WhatsApp to send the message.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+ <div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,40 C240,80 480,0 720,20 960,40 1200,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f3d2e">
+    </path>
+  </svg>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <h2>Revolve Agro</h2>
+      <p>
+        Smart crop nutrition powered by science, data, and farmer trust.
+      </p>
+    </div>
+
+    <div class="footer-card">
+      <h4>Explore</h4>
+      <a href="products.html">🌾 Products</a>
+      <a href="ai.html">🤖 AI Advisor</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div class="footer-card">
+      <h4>Reach Us</h4>
+      <p>📍 India</p>
+      <p>📞 +91 XXXXXXXX</p>
+      <p>📧 support@revolveagro.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Revolve Agro · Grow Better Crops 🌱
+  </div>
+</footer>
+
+  <!-- JS -->
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard | Revolve Agro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <span>Revolve Agro</span>
+    </div>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ai.html" class="active">AI Advisor</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+
+<!-- DASHBOARD -->
+<section class="dashboard">
+  <div class="dashboard-container">
+
+    <h1>📊 Product Insights Dashboard</h1>
+    <p class="dashboard-subtitle">
+      See which products are trending and why farmers are interested in them.
+    </p>
+
+    <div class="dashboard-grid">
+
+      <!-- TRENDING PRODUCTS -->
+      <div class="dashboard-card">
+        <h3>🔥 Trending Products</h3>
+        <ul id="trending-list">
+          <li>No data yet</li>
+        </ul>
+      </div>
+
+      <!-- EXPLAINABILITY -->
+      <div class="dashboard-card">
+        <h3>🧠 Why These Products Are Trending</h3>
+        <ul id="explainability-list">
+          <li>Click products to generate insights</li>
+        </ul>
+      </div>
+
+      <!-- BAR CHART -->
+      <div class="dashboard-card chart-card">
+        <h3>📊 Product Views</h3>
+        <canvas id="viewsChart"></canvas>
+      </div>
+
+      <!-- PIE CHART -->
+      <div class="dashboard-card chart-card">
+        <h3>🥧 Interest Distribution</h3>
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+ <div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,40 C240,80 480,0 720,20 960,40 1200,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f3d2e">
+    </path>
+  </svg>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <h2>Revolve Agro</h2>
+      <p>
+        Smart crop nutrition powered by science, data, and farmer trust.
+      </p>
+    </div>
+
+    <div class="footer-card">
+      <h4>Explore</h4>
+      <a href="products.html">🌾 Products</a>
+      <a href="ai.html">🤖 AI Advisor</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div class="footer-card">
+      <h4>Reach Us</h4>
+      <p>📍 India</p>
+      <p>📞 +91 XXXXXXXX</p>
+      <p>📧 support@revolveagro.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Revolve Agro · Grow Better Crops 🌱
+  </div>
+</footer>
+
+
+
+<!-- CHART JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

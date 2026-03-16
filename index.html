@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revolve Agro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="low-internet-banner" class="low-internet-banner">
+  ⚠ Low Internet Mode Active – Simplified view enabled
+</div>
+
+  <!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <span>Revolve Agro</span>
+    </div>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ai.html" class="active">AI Advisor</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content hero-flex">
+
+    <!-- LOGO -->
+    <img src="assets/logo.jpeg" alt="Revolve Agro Logo" class="hero-logo">
+
+    <!-- TEXT -->
+    <div class="hero-text">
+      <h1>Smarter Nutrition for Better Crops</h1>
+      <p>Advanced crop nutrition solutions trusted by farmers.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- TRUST / ABOUT SECTION -->
+<section class="trust-section">
+  <div class="trust-container">
+
+    <h2>Why Choose Revolve Agro?</h2>
+    <p class="trust-subtitle">
+      Empowering farmers with science-backed crop nutrition solutions.
+    </p>
+
+    <div class="trust-grid">
+
+      <div class="trust-card">
+        <h3>🌱 Agriculture Focused</h3>
+        <p>
+          We specialize in crop nutrition products designed to address real
+          deficiencies and improve crop performance at every growth stage.
+        </p>
+      </div>
+
+      <div class="trust-card">
+        <h3>🧪 Scientifically Formulated</h3>
+        <p>
+          Our products are developed using proven nutrient science to ensure
+          maximum absorption, effectiveness, and crop safety.
+        </p>
+      </div>
+
+      <div class="trust-card">
+        <h3>🤝 Farmer-Centric Approach</h3>
+        <p>
+          We focus on practical solutions that are easy to use, cost-effective,
+          and suitable for Indian farming conditions.
+        </p>
+      </div>
+
+      <div class="trust-card">
+        <h3>📊 Data & Insight Driven</h3>
+        <p>
+          Our platform highlights trending products and provides clear
+          explanations so farmers and teams understand why products work.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="featured-products">
+  <h2>Featured Products</h2>
+
+  <div class="featured-grid">
+
+    <div class="featured-card" onclick="goToProduct('hustler-magnesium')">
+      <img src="assets/products/hustler-magnesium.jpeg" alt="Hustler Magnesium">
+      <span>Hustler Magnesium</span>
+    </div>
+
+    <div class="featured-card" onclick="goToProduct('revo-growth')">
+      <img src="assets/products/revo-growth.jpeg" alt="Revo Growth">
+      <span>Revo Growth</span>
+    </div>
+
+    <div class="featured-card" onclick="goToProduct('revo-boost')">
+      <img src="assets/products/revo-boost.jpeg" alt="Revo Boost">
+      <span>Revo Boost</span>
+    </div>
+
+  </div>
+</section>
+
+  <!-- FOOTER -->
+<div class="footer-wave">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path
+      d="M0,40 C240,80 480,0 720,20 960,40 1200,80 1440,60 L1440,0 L0,0 Z"
+      fill="#0f3d2e">
+    </path>
+  </svg>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img src="assets/logo.jpeg" alt="Revolve Agro">
+      <h2>Revolve Agro</h2>
+      <p>
+        Smart crop nutrition powered by science, data, and farmer trust.
+      </p>
+    </div>
+
+    <div class="footer-card">
+      <h4>Explore</h4>
+      <a href="products.html">🌾 Products</a>
+      <a href="ai.html">🤖 AI Advisor</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="contact.html">📞 Contact</a>
+    </div>
+
+    <div class="footer-card">
+      <h4>Reach Us</h4>
+      <p>📍 India</p>
+      <p>📞 +91 XXXXXXXX</p>
+      <p>📧 support@revolveagro.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Revolve Agro · Grow Better Crops 🌱
+  </div>
+</footer>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
